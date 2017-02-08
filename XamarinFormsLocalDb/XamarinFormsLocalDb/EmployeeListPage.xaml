@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsLocalDb.EmployeeListPage">
+	<ContentPage.Content>
+		<ListView x:Name="EmployeeListView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ItemSelected="ListView_ItemSelected">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<TextCell Text="{Binding Name}" Detail="{Binding Designation}" />
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</ContentPage.Content>
+</ContentPage>

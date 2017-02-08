@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{40E38320-AB80-471D-95E8-14702AE12279}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamarinFormsLocalDb.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C46FE99E-05CC-4FAB-A6E7-38F2F4D3A288" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/LocalFileHelper.cs">
+    <Files>
+      <File FileName="XamarinFormsLocalDb/App.xaml.cs" Line="26" Column="36" />
+      <File FileName="XamarinFormsLocalDb/EmployeePage.xaml" Line="21" Column="15" />
+      <File FileName="XamarinFormsLocalDb/EmployeePage.xaml.cs" Line="25" Column="40" />
+      <File FileName="iOS/LocalFileHelper.cs" Line="11" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

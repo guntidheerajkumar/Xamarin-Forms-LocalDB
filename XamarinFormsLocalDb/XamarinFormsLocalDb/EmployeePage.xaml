@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsLocalDb.EmployeePage">
+	<ContentPage.Content>
+		<StackLayout Padding="20" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto" />
+					<ColumnDefinition Width="*" />
+				</Grid.ColumnDefinitions>
+				<Label Text="Name:" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" />
+				<Entry Text="{Binding Name}" Grid.Row="0" Grid.Column="1" />
+				<Label Text="Designation:" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" />
+				<Entry Text="{Binding Designation}" Grid.Row="1" Grid.Column="1" />
+				<Label Text="Age:" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" />
+				<Entry Text="{Binding Age}" Grid.Row="2" Grid.Column="1" />
+			</Grid>
+			<Button Text="Save" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" TextColor="White" Clicked="Save_Clicked" />
+			<Button Text="Cancel" HorizontalOptions="FillAndExpand" BackgroundColor="Red" WidthRequest="160" TextColor="White" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
