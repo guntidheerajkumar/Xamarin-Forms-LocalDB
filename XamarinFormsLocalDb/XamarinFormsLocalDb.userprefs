@@ -1,16 +1,20 @@
-﻿<Properties StartupConfiguration="{40E38320-AB80-471D-95E8-14702AE12279}|Default">
+﻿<Properties StartupConfiguration="{65008250-355B-4789-BB6C-8DAC3B5F6103}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.XamarinFormsLocalDb.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C46FE99E-05CC-4FAB-A6E7-38F2F4D3A288" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/LocalFileHelper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinFormsLocalDb Status">
     <Files>
-      <File FileName="XamarinFormsLocalDb/App.xaml.cs" Line="26" Column="36" />
-      <File FileName="XamarinFormsLocalDb/EmployeePage.xaml" Line="21" Column="15" />
+      <File FileName="Droid/LocalFileHelper.cs" Line="17" Column="40" />
+      <File FileName="XamarinFormsLocalDb/App.xaml.cs" Line="37" Column="4" />
+      <File FileName="XamarinFormsLocalDb/EmployeeListPage.xaml.cs" Line="35" Column="1" />
       <File FileName="XamarinFormsLocalDb/EmployeePage.xaml.cs" Line="25" Column="40" />
-      <File FileName="iOS/LocalFileHelper.cs" Line="11" Column="2" />
+      <File FileName="XamarinFormsLocalDb/packages.config" Line="1" Column="1" />
+      <File FileName="XamarinFormsLocalDb Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.XamarinFormsLocalDb.Droid PreferredExecutionTarget="Android.Nexus 4 (Marshmallow)" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
