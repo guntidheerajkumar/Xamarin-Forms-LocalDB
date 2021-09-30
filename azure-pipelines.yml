@@ -28,5 +28,7 @@ steps:
   inputs:
     solutionFile: '**/*.sln'
     configuration: 'Release'
+    packageApp: true
     buildForSimulator: true
-    packageApp: false
+    runNugetRestore: true
+
